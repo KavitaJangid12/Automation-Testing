@@ -1,0 +1,20 @@
+package com.example;
+
+public class ArrayException {
+	public static void main(String[] args) {
+		int[] numbers= {1,2,3,4,5};
+		System.out.println(numbers[0]);
+		System.out.println(numbers[1]);
+		System.out.println(numbers[2]);
+		System.out.println(numbers[3]);
+		System.out.println(numbers[4]);
+		try {
+			System.out.println(numbers[10]);
+		}
+		catch(ArrayIndexOutOfBoundsException ae) {
+			System.out.println(ae);
+		}
+		System.out.println("After Exception");
+	}
+
+}
