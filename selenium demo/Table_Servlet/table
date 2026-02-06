@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="1px" id="empTable">
+<tr><th>ID</th><th>NAME</th><th>DEPARTMENT</th></tr>
+<tr><td>1</td><td>RAMU</td><td>IT</td></tr>
+<tr><td>2</td><td>RAJU</td><td>HR</td></tr>
+<tr><td>3</td><td>RAKESH</td><td>FINANCE</td></tr>
+</table>
+</body>
+</html>
